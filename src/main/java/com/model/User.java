@@ -1,5 +1,6 @@
 package com.model;
 
+
 /**
  * 
  */
@@ -9,7 +10,14 @@ public class User {
 	private String pass;
 	private String cpass;
 	private int age;
+	private String gender;
 	
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
 	
 	public int getId() {
 		return id;
@@ -44,8 +52,11 @@ public class User {
 	}
 	@Override
 	public String toString() {
-		return "User [id = "+id+",name=" + name + ", pass=" + pass + ", cpass=" + cpass + ", age=" + age + "]";
+		return "User [id=" + id + ", name=" + name + ", pass=" + pass + ", cpass=" + cpass + ", age=" + age
+				+ ", gender=" + gender + "]";
 	}
+
+	
 	
 	
 	

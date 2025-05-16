@@ -28,10 +28,24 @@
     <version>42.2.7</version> <!-- or latest -->
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>5.1.1.RELEASE</version>
+</dependency>
+
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-jdbc</artifactId>
     <version>5.1.1.RELEASE</version> <!-- Match this to your Spring version -->
+</dependency>
+
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>4.0.1</version> <!-- or 3.1.0 if you're on older version -->
+    <scope>provided</scope>
 </dependency>
 
 
@@ -41,6 +55,16 @@
     <artifactId>spring-webmvc</artifactId>
     <version>5.1.1.RELEASE</version>
 </dependency>
+  	<dependency>
+  		<groupId>com.example</groupId>
+  		<artifactId>SpringJDBCForm</artifactId>
+  		<version>1.0-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.example</groupId>
+  		<artifactId>mywebapp</artifactId>
+  		<version>1.0-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
   <build>
     <finalName>SpringMVCcrud</finalName>

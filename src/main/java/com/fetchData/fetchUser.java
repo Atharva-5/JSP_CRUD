@@ -2,6 +2,8 @@ package com.fetchData;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Arrays;
+import java.util.*;
 
 import org.springframework.jdbc.core.RowMapper;
 
@@ -17,6 +19,7 @@ public class fetchUser implements RowMapper<User>{
 		u.setPass(rs.getString(3));
 		u.setCpass(rs.getString(4));
 		u.setAge(rs.getInt(5));
+		u.setGender(rs.getString(6));
 	
 		return u;
 	}
