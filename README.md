@@ -133,14 +133,17 @@ cd SpringMVCcrud
 ---
 
 ## 📸 Screenshots
-**form.jsp**
-![image](https://github.com/user-attachments/assets/37186139-9ed6-4168-a89f-b676458c75e0)
+**register.jsp**
+![image](https://github.com/user-attachments/assets/3fc501af-3470-474b-91de-290f84d5cb6d)
+
+**login.jsp**
+![image](https://github.com/user-attachments/assets/a4ba19d3-a5cf-47f7-8b73-2e6830ee5910)
 
 **showuser.jsp**
-![image](https://github.com/user-attachments/assets/271fa818-a55d-45db-8e1d-52fe4e8bc65d)
+![image](https://github.com/user-attachments/assets/49bb7596-2e6c-46fa-924d-e9bf971d859b)
 
 **editForm.jsp**
-![image](https://github.com/user-attachments/assets/66b03c7f-3c1c-444f-98d7-f0f984ac3c9b)
+![image](https://github.com/user-attachments/assets/505dcc6c-a9b2-4144-a290-d5232e683ccf)
 
 **PostgreSQL**
 ![image](https://github.com/user-attachments/assets/19c4820c-94fc-46ab-ac52-200c9dc6ff04)
